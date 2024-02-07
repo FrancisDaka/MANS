@@ -98,7 +98,7 @@ class playGame extends Phaser.Scene{
         logo.setOrigin(0.5, 1);
         logo.setInteractive();
         logo.on("pointerdown", function(){
-            window.location.href = "http://www.emanueleferonato.com/"
+           // window.location.href = "http://www.emanueleferonato.com/"
         });
         this.canMove = false;
         this.game2048.generateField();
